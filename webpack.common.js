@@ -31,8 +31,5 @@ module.exports = {
       $: "jquery",
       jQuery: "jquery"
     }),
-    new HtmlWebpackPlugin({
-      template: 'src/template.html'
-    })
   ]
 };
