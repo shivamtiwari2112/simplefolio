@@ -5,19 +5,20 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/shivamtiwari2112/simplefolio"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
+    "url": "https://github.com/shivamtiwari2112/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://github.com/shivamtiwari2112/simplefolio",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
@@ -36,6 +37,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "tilt.js": "^1.2.1"
