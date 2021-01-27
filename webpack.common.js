@@ -30,6 +30,9 @@ module.exports = {
     new Webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery"
+    }),
+    new HtmlWebpackPlugin({
+      template: 'src/template.html'
     })
   ]
 };
